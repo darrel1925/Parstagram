@@ -1,18 +1,16 @@
 //
-//  PostCell.swift
+//  CommentCell.swift
 //  ParseChat
 //
-//  Created by Kay Lab on 5/8/19.
+//  Created by Kay Lab on 5/10/19.
 //  Copyright © 2019 Darrel Muonekwu. All rights reserved.
 //
 
 import UIKit
 
-class PostCell: UITableViewCell {
-
-    @IBOutlet weak var photoView: UIImageView!
-    @IBOutlet weak var usernameLabel: UILabel!
-    @IBOutlet weak var commentLabel1: UILabel!
+class CommentCell: UITableViewCell {
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var commentLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

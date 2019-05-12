@@ -5,7 +5,7 @@
 //  Created by Kay Lab on 5/6/19.
 //  Copyright © 2019 Darrel Muonekwu. All rights reserved.
 // pm install -g parse-dashboard
-// parse-dashboard --appId myAppId --masterKey myMasterKey --serverURL "https://yourapp.herokuapp.com/parse"
+// parse-dashboard --appId Parstagram --masterKey myMasterKey --serverURL "https://stark-river-64085.herokuapp.com/parse"
 
 import UIKit
 import Parse

@@ -1,5 +1,5 @@
 //
-//  PostCell.swift
+//  PostTableViewCell.swift
 //  ParseChat
 //
 //  Created by Kay Lab on 5/8/19.
@@ -8,12 +8,8 @@
 
 import UIKit
 
-class PostCell: UITableViewCell {
+class PostTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var photoView: UIImageView!
-    @IBOutlet weak var usernameLabel: UILabel!
-    @IBOutlet weak var commentLabel1: UILabel!
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

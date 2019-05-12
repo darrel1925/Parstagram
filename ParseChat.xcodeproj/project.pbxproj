@@ -19,8 +19,9 @@
 		ED4F3FD22281031D006E9D41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4F3FD02281031D006E9D41 /* LaunchScreen.storyboard */; };
 		ED4F3FDD2281031E006E9D41 /* ParseChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4F3FDC2281031E006E9D41 /* ParseChatTests.swift */; };
 		ED4F3FE82281031E006E9D41 /* ParseChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4F3FE72281031E006E9D41 /* ParseChatUITests.swift */; };
+		ED7E3D0B228642CA00895B55 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7E3D0A228642CA00895B55 /* CommentCell.swift */; };
+		ED961FAA22861A4E00C45072 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED961FA922861A4E00C45072 /* Constants.swift */; };
 		EDC9CF3F228144B100EF000F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC9CF3E228144B100EF000F /* FeedViewController.swift */; };
-		EDC9CF46228147B100EF000F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC9CF45228147B100EF000F /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CF8F7AE81C2152E57FBADAB0 /* Pods_ParseChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParseChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12919BA3FA8725561D7A735 /* Pods-ParseChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseChatTests.debug.xcconfig"; path = "Target Support Files/Pods-ParseChatTests/Pods-ParseChatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA4B9F79B38EFF31FC1108CA /* Pods-ParseChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseChat.release.xcconfig"; path = "Target Support Files/Pods-ParseChat/Pods-ParseChat.release.xcconfig"; sourceTree = "<group>"; };
+		ED1E86032286235100D374AA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED3FF69D22837C2300A70714 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		ED3FF6A22283F43800A70714 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		ED4F3FC42281031B006E9D41 /* ParseChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,15 +59,15 @@
 		ED4F3FCC2281031B006E9D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED4F3FCE2281031D006E9D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED4F3FD12281031D006E9D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ED4F3FD32281031D006E9D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED4F3FD82281031E006E9D41 /* ParseChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParseChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED4F3FDC2281031E006E9D41 /* ParseChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseChatTests.swift; sourceTree = "<group>"; };
 		ED4F3FDE2281031E006E9D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED4F3FE32281031E006E9D41 /* ParseChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParseChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED4F3FE72281031E006E9D41 /* ParseChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseChatUITests.swift; sourceTree = "<group>"; };
 		ED4F3FE92281031E006E9D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7E3D0A228642CA00895B55 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		ED961FA922861A4E00C45072 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EDC9CF3E228144B100EF000F /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
-		EDC9CF45228147B100EF000F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EEE80DA9DFE268F9BE88AB3B /* Pods-ParseChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseChat.debug.xcconfig"; path = "Target Support Files/Pods-ParseChat/Pods-ParseChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				ED3FF6A22283F43800A70714 /* PostCell.swift */,
+				ED7E3D0A228642CA00895B55 /* CommentCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -154,7 +157,8 @@
 		ED4F3FC62281031B006E9D41 /* ParseChat */ = {
 			isa = PBXGroup;
 			children = (
-				ED4F3FD32281031D006E9D41 /* Info.plist */,
+				ED1E86032286235100D374AA /* Info.plist */,
+				ED7E3D0722862A6900895B55 /* Structs */,
 				ED3FF6A12283F2BD00A70714 /* Cells */,
 				EDC9CF42228144C000EF000F /* Storyboards */,
 				EDC9CF41228144BD00EF000F /* Helpers */,
@@ -181,6 +185,14 @@
 			path = ParseChatUITests;
 			sourceTree = "<group>";
 		};
+		ED7E3D0722862A6900895B55 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				ED961FA922861A4E00C45072 /* Constants.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
 		EDC9CF40228144BA00EF000F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,7 +208,6 @@
 			children = (
 				ED4F3FCE2281031D006E9D41 /* Assets.xcassets */,
 				ED4F3FC72281031B006E9D41 /* AppDelegate.swift */,
-				EDC9CF45228147B100EF000F /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -440,10 +451,11 @@
 			files = (
 				ED4F3FCA2281031B006E9D41 /* LoginViewController.swift in Sources */,
 				ED3FF69E22837C2300A70714 /* CameraViewController.swift in Sources */,
+				ED961FAA22861A4E00C45072 /* Constants.swift in Sources */,
 				EDC9CF3F228144B100EF000F /* FeedViewController.swift in Sources */,
 				ED4F3FC82281031B006E9D41 /* AppDelegate.swift in Sources */,
-				EDC9CF46228147B100EF000F /* Constants.swift in Sources */,
 				ED3FF6A32283F43800A70714 /* PostCell.swift in Sources */,
+				ED7E3D0B228642CA00895B55 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

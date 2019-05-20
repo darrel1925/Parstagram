@@ -326,7 +326,35 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2786.4000000000001" y="117.48768472906404"/>
+            <point key="canvasLocation" x="2951" y="-364"/>
+        </scene>
+        <!--Comments View Controller-->
+        <scene sceneID="PCa-6y-9Hr">
+            <objects>
+                <tableViewController id="g66-Ec-EIy" customClass="CommentsViewController" customModule="ParseChat" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Vzd-Yj-UeZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ViewCommentsCell" rowHeight="149" id="RTa-JG-Jqx" customClass="ViewCommentsCell" customModule="ParseChat" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="149"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RTa-JG-Jqx" id="H5P-dE-lKH">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="148.66666666666666"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="g66-Ec-EIy" id="0GD-Jd-Knp"/>
+                            <outlet property="delegate" destination="g66-Ec-EIy" id="cej-BV-3pp"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PUx-xY-msC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2949.5999999999999" y="349.50738916256159"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="wfO-nc-jNn">

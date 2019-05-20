@@ -22,6 +22,7 @@ struct Cells {
     static let PostCell = "PostCell"
     static let CommentCell = "CommentCell"
     static let AddCommentCell = "AddCommentCell"
+    static let ViewCommentsCell = "ViewCommentsCell"
     
 }
 

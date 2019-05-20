@@ -62,5 +62,16 @@ class ViewController: UIViewController {
             return false
         }
     }
+    
+    // NEXT TWO FUNCTIONS DISMISS THE KEY BOARD
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        passwordTextField.resignFirstResponder()
+        useranameTextField.resignFirstResponder()
+        return true
+    }
 }
 
